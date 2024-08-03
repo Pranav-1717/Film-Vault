@@ -1,0 +1,35 @@
+.bg-text-glassy {
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+  backdrop-filter: blur(10px); /* Blur effect for the glassy look */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px; /* Padding around the text */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
+}
+
+.movie-card {
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for effects */
+}
+
+.movie-card:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Increased shadow on hover */
+}
+
+.movie-card-content {
+  background: rgba(0, 0, 0, 0.5); /* Initial semi-transparent background */
+  transition: background 0.3s; /* Smooth transition for background color */
+}
+
+.movie-card-content:hover {
+  background: rgba(0, 0, 0, 0.7); /* Darker background on hover */
+}
+
+.bg-faint-gray {
+  background-color: rgba(211, 211, 211, 0.5); /* Light gray with 50% opacity */
+}
+
+.btns{
+  height:40px;
+  width:100px;
+  border-radius: 7px;
+}
